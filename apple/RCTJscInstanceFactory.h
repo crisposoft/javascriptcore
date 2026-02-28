@@ -5,9 +5,12 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <react/runtime/JSRuntimeFactoryCAPI.h>
-
 #pragma once
+
+// Forward-declare the opaque type instead of importing the non-modular
+// JSRuntimeFactoryCAPI.h header, which would cause "include of non-modular
+// header inside framework module" errors with use_frameworks!.
+typedef void *JSRuntimeFactoryRef;
 
 #ifdef __cplusplus
 extern "C" {

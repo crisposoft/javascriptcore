@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+#import <react/runtime/JSRuntimeFactoryCAPI.h>
 #import "RCTJscInstance.h"
 #import "RCTJscInstanceFactory.h"
 

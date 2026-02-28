@@ -14,18 +14,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-community/javascriptcore.git"
+    "url": "git+https://github.com/crisposoft/javascriptcore.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "files": [
-    "ios",
+    "apple",
     "android",
     "common",
     "*.podspec",
-    "!ios/build",
     "!android/build",
     "!android/gradle",
     "!android/gradlew",
